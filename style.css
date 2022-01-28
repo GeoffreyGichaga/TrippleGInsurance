@@ -1,21 +1,41 @@
-
-#first-sec{
-    background-image: url('./images/hero-cover.3.png');
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
 }
 
+#part1{
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cover.png") ;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-sizing: content-box;
 
+    /**/
+    
 
-/*Navigation bar & Logo*/
-#nav-bar{
-    display: inline-flex;
+}
+.header{
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+
+     
+}
+
+.nav-bar{
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 5px;
     width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .logo{
     width: 10%;
+    display: flex;
 }
 .logo img{
     width: 50%;
@@ -24,29 +44,22 @@
 
 
 
-.logo-name{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-right: 10%;
-    margin-top: 9px;
-    margin-left: 5px;
-}
-
-.logo-name img{
-    width: 10%;
-}
-
 
 .logo-name h3{
     font-family: 'Montserrat', sans-serif;
+    padding-top: 13px;
+    color: white;
+
 }
 .logo-name span:hover{
     color: #23A6F0;
 }
 
+
 .menu{
-    margin-right: 10%;
+    margin-left: 5%;
+
+    
 }
 
 .menu li{
@@ -56,7 +69,7 @@
 
 .menu ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -66,19 +79,31 @@
    
 }
 
+
 .login{
-    margin-right: 30px;
-    margin-top: 9px;
+    margin-left: 10%;
+    margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 
 }
+.login a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 
 .member button{
     border: 15px solid  #23A6F0;
     background-color: #23A6F0;
     border-radius: 3px;
     color: white;
-    margin-top: 15px;
+    margin-top: 4px;
+    margin-left: 20px;
+    font-weight: bold;
     
 
 }
@@ -89,25 +114,22 @@
 }
 
 
-
-/*end of Navigation bar & Logo*/
-
-
-
-/*Section 1 */
-
-
 .sect{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    position: relative;
+    left: 36;
+    margin-bottom: 30px;
+    margin-top: 90px;
+   
 }
+
 .sect .p1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 49px;
     text-align: center;
+    color: white;
+    margin-bottom: 30px;
+
 
 }
 
@@ -115,48 +137,40 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-align: center;
+    color: white;
+
 
 
 }
+
 
 
 .qlearn{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 75%;
-    left: 50%;
-    
+    position: relative;
+    left: 40%;
+    margin-top: 30px;
 }
+
+
 
 .quote-bt{
     border: 15px solid  #23A6F0;
     background-color: #23A6F0;
     border-radius: 30px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .quote-bt2{
-    border: 2px solid  #23A6F0;
+    border: 1px solid  white;
     border-radius: 30px;
     background-color: transparent;
-    color: black;
+    color: white;
     padding: 15px 30px 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
-
-
-
-
-
-
-
-
-
-
-/*End of Section 1 
-
-
-
 
 
