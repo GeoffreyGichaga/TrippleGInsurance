@@ -382,7 +382,8 @@ body{
     text-align: center;
     margin-bottom: 10%;
     padding: 0px 20px 0px 20px;
-    color: gray;
+    color: #737373;
+    font-weight: 500;
 }
 
 .star{
@@ -483,7 +484,8 @@ input[type=email]{
     font-family: 'Montserrat';
     font-size: 13px;
     text-align: center;
-    color: gray;
+    color: #737373;
+    font-weight: 600;
     margin-top: 10px ;
 }
 
@@ -769,8 +771,8 @@ input[type=email]{
 .bf1{
     position: relative;
     top: 200px; 
-    left: 17%;
-    width: 100%;
+    left: 20%;
+    width: 80%;
 
 
     
@@ -912,6 +914,7 @@ select{
 
 .consult{
     margin-top: 25%;
+    margin-bottom: 5%;
     margin-left: 10%;
     display: flex;
     flex-direction: row;
@@ -925,12 +928,14 @@ select{
     font-size: 25px;
     font-family: 'Montserrat';
     font-weight: bold;
+    color: #252b42;
+
 }
 
 .con1b{
     font-size: 14px;
     font-family: 'Montserrat';
-    color: gray;
+    color: #737373;
     font-weight: 600;
     margin-top: 10px;
 }
@@ -964,9 +969,68 @@ select{
 /**Footer**/
 
 footer{
-    margin-top: 5%;
     background-color: white;
+    width: 100%;
 }
+
+.foot{
+    padding: 30px 10px 20px 100px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.foot1{
+    width: 100%;
+}
+
+
+
+.foot1 h4{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #252b42;
+
+}
+
+.foot1 ul{
+    list-style: none;
+}
+.foot1 li{
+    padding-bottom: 10px;
+}
+.foot1 a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
+
+
+
+.foot2a{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11px;
+}
+.foot2a img{
+    width: 10%;
+    padding-bottom: 10px;
+}
+.foot2a p{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+
+
 
 
 
