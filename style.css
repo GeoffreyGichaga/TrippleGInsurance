@@ -450,7 +450,7 @@ input[type=email]{
 
 
 #sub-button{
-    height: 102%;
+    height: 100%;
     width: 20%;
     background-color: #23A6F0;
     border-radius: 5px;
@@ -458,6 +458,29 @@ input[type=email]{
     color: white;
 }
 
+
+
+
+
+.pricing{
+    margin-top: 10%;
+
+}
+
+.pri-text h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    color: #252b42;
+
+}
+
+.pri-text p{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+}
 
 
 
