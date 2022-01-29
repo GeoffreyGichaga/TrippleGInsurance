@@ -452,10 +452,13 @@ input[type=email]{
 #sub-button{
     width: 20%;
     background-color: #23A6F0;
-    border-radius: 5px;
+    border-radius: 4px;
     font-family: 'Montserrat';
     color: white;
-    padding: 10px;
+    padding: 13px;
+    font-weight: 600;
+    border: none;
+
 }
 
 
@@ -725,7 +728,7 @@ input[type=email]{
 
 .part4a{
     align-items: center;
-    padding: 6% 10%;
+    padding: 6% 10% 0 6%;
     display: flex;
     flex-direction: row;
 }
@@ -763,13 +766,31 @@ input[type=email]{
 
 
 
+.bf1{
+    position: relative;
+    top: 200px; 
+    left: 17%;
+    width: 100%;
+
+
+    
+}
+
+.bform{
+    width: 100%;
+    
+}
+
+
+
+
 
 
 
 
 
 .bform{
-    width: 50%;
+    width: 65%;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -792,7 +813,7 @@ form h3{
     text-align: center;
     font-family: 'Montserrat';
     color: #252b42;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 form p{
@@ -849,11 +870,13 @@ select{
     background-color: #23A6F0;
     padding: 10px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 89%;
     border-radius: 4px;
     color: white;
     border: none;
+    font-weight: 600;
+
     
 
     
@@ -885,4 +908,67 @@ select{
 
 
 
+/*****Consultancy******/
 
+.consult{
+    margin-top: 25%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.con1{
+    padding-right: 30%;
+}
+.con1a{
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.con1b{
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: gray;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.con2 button{
+    padding: 15px 25px 15px 25px;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+}
+
+
+/*****End of Consultancy******/
+
+
+
+
+
+
+
+
+
+
+
+
+/**Footer**/
+
+footer{
+    margin-top: 5%;
+    background-color: white;
+}
+
+
+
+
+/*****End of footer******/
