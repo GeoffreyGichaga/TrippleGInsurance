@@ -221,12 +221,16 @@
 }
 .card1 h4{
     font-family: 'Montserrat';
+    font-size: 20px;
+
 }
 .card1 p{
     font-family: 'Montserrat';
     font-size: 12px;
     color: gray;
     margin-top: 5px;
+    font-size: 14px;
+
 }
 
 
@@ -252,10 +256,11 @@
 .card12 h4{
     font-family: 'Montserrat';
     color: white;
+    font-size: 20px;
 }
 .card12 p{
     font-family: 'Montserrat';
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     margin-top: 5px;
 }
