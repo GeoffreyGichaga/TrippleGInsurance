@@ -5,20 +5,18 @@
 }
 
 #part1{
-    width: auto;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cover.png") ;   
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    box-sizing: content-box;
+    
 
-    /**/
     
 
 }
 .header{
-    width: 100%;
-    box-sizing: content-box;
+    width: 95%;
+    box-sizing: border-box;
     margin: 0;
 
      
@@ -114,43 +112,46 @@
 }
 
 
-.sect{
-    position: relative;
-    left: 36;
-    margin-bottom: 30px;
-    margin-top: 90px;
-   
+
+/*Section 1 banner*/
+
+.section1{
+
+}
+.section1a{
+    margin-top: 9%;
 }
 
-.sect .p1{
+.section1a .p1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 49px;
+    font-size: 52px;
     text-align: center;
     color: white;
-    margin-bottom: 30px;
+    margin-top: 9%;
 
 
 }
 
-.sect .p2{
+
+.section1a .p2{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-align: center;
     color: white;
+    margin-top: 35px;
 
 
 
 }
-
 
 
 .qlearn{
     position: relative;
-    left: 40%;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 39%;
+    margin-bottom: 20px;
 }
-
 
 
 .quote-bt{
@@ -169,8 +170,39 @@
     color: white;
     padding: 15px 30px 15px 30px;
     font-family: 'Montserrat', sans-serif;
-
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
 
+
+/*Cards*/
+.banner-cards{
+    display: inline-flex;
+    margin-top: 6%;
+}
+
+
+
+.cards1a{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.card1{
+    border: 2px solid black;
+    width: 23%;
+    margin: 20px 10px ;
+    padding: 5px;
+
+
+}
+
+.card1 img{
+    width: 10%;
+
+}
