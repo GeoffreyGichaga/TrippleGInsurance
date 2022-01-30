@@ -1070,7 +1070,7 @@ footer{
 @media only screen and (max-width: 1200px) {
 
     footer{
-        width: 100%;
+        width: 90%;
         background-color: white;
     }
     .foot{
