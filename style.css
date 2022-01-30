@@ -1048,6 +1048,41 @@ input[type=email]{
 
 
 
+
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    .part3a{
+        margin-top: 10%;
+        margin-bottom: 5%;
+       
+    
+    }
+
+
+    .part3b{
+        display: block;
+        justify-content: center;
+        margin: 20px;
+        padding-top: 20px;
+
+    }
+
+    .person{
+        width: 100%;
+        border: 2px solid white;
+        background-color: white;
+        margin: 20px ;
+        border-radius: 10px;
+        border: 1px solid #d8d8da;
+        
+    
+    
+    }
+}
+
+
+
+
+
 /**************End of part 3*************/
 
 
