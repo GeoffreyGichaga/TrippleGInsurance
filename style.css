@@ -1326,6 +1326,9 @@ input[type=email]{
 .bform img{
     width: 25%;
 }
+.c-img{
+    display: none;
+}
 
 form{
     width: 100%;
@@ -1340,6 +1343,13 @@ form h3{
     color: #252b42;
     margin-bottom: 50px;
 }
+
+
+.free-quote{
+    display: none;
+}
+
+
 
 form p{
     font-family: 'Montserrat';
@@ -1445,36 +1455,87 @@ select{
 
 
 
+    /***Form query***/
+
+
+    .book-form{
+        margin-bottom: 50%;
+
+
+    }
+
+    .bf1{
+        position: relative;
+        top: 200px; 
+        left: 0;
+        width: 100%;
+
+    
+    
+        
+    }
 
 
 
+    .bform{
+        width: 100%;
+        background-color: white;
+        display: block;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 
+    .bform img{
+        width: 50%;
+        
+    }
 
+    /****/
 
+    .c-img{
+        display: none;
 
+    }
 
+    /*****************/
 
+    form{
+        width: 50%;
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
 
+    input{
+        width: 90%;
+        padding: 10px 90px 10px 40px;
+        margin: 10px;
+        color: #252b42;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        border: 1px solid gray;
+    
+    
+    }
+   
+    select{
+        width: 100%;
+        padding: 10px 80px 10px 30px;
+        margin: 10px;
+        font-size: 11px;
+        border-radius: 4px;
+        border: 1px solid gray;
+    
+    
+    }
 
+    #ba12{
+        margin-left: 32%;
 
-
-
-
-
+    }
+    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1535,8 +1596,16 @@ select{
 @media only screen and (max-width: 1200px) {
 
     .consult{
-        margin-left: 20px;
+        padding-top: 15%;
         display: block;
+        flex-direction: column;
+    }
+
+    .con1a{
+        padding-bottom: 10px;
+    }
+    .con1b{
+        padding-bottom: 20px;
     }
 }
 
