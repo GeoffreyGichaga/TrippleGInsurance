@@ -1,6 +1,6 @@
-# Burger Palace website
+# Triple G Insurance website
 #### 30/01/2022
-This is a basic html/css website for a n Insurance Company by the name Triple G
+This is a basic html/css website for an Insurance Company by the name Triple G
 #### By 
 Geoffrey Gichaga .G
 
@@ -45,7 +45,7 @@ with the following view on a desktop mode display:
  
 
 ## Setup/Installation Requirements
-* SIte can be accessed through this link https://geoffreygichaga.github.io/Burger-Palace/
+* SIte can be accessed through the repo live link
 * A phone .tablet or a desktop computer
 * Site is responsive to screens of upto 1200px
 
@@ -58,7 +58,7 @@ Languages used in developing this site include:
 * HTML 
 * CSS
 ## Support and contact details
-You can report any issue you encounter with the site on :geoffrey.githinji@student.moringaschool.com
+You can report any issue you encounter with the site on      :geoffrey.githinji@student.moringaschool.com
 ### License
 MIT License
 
