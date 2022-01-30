@@ -49,6 +49,25 @@ body{
     margin-left: 20px;
 }
 
+/****Hidden images***/
+.hlogo{
+    display: none;
+}
+
+
+/****End of Hidden images***/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,17 +138,20 @@ body{
     box-shadow: 0px 0px 5px #23A6F0;
 
 }
-.twi{
-    display: none;
-}
 
-@media only screen and (min-width: 350px) and (max-width:770){
-   #part1{
+
+@media only screen and (min-width: 350px) and (max-width: 768px){
+   body{
        width: 100%;
    }
-   .twi{
-       display: flex;
+
+
+    #part1{
+       width: 100%;
+       background: none;
    }
+
+
     .header{
         display: block;
         flex-direction: row;
@@ -142,7 +164,12 @@ body{
     .nav-bar{
         display: block;
         width: 100%;
-        background-color: whitesmoke;
+        justify-content: center;
+    }
+    .navb1{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 10px;
     }
 
     .logo-name h3{
@@ -151,13 +178,61 @@ body{
 
     .logo{
         width: 100%;
+        display: flex;
+        margin-top: 20px;
     }
 
     .logo img{
-        width: 20%;
+        width: 20px;
+        height: 25px;
         
     }
+    .slogo{
+        display: none;
+    }
+ 
+    .hlogo{
+        display: flex;
+        padding-right: 30px;
+    }
 
+
+
+    .section1{
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cover.png") ;   
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+
+    .menu{
+        margin-left: 0;
+    }
+
+    .menu li{
+        display: block;
+        padding: 15px ;
+    }
+
+
+    .menu ul li a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Montserrat', sans-serif;
+    
+    } 
+
+    .member button{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+    
+ 
 
 
 
@@ -167,6 +242,17 @@ body{
 }
 
 /****End of Nav bar*****/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -241,6 +327,46 @@ body{
 
 
 }
+
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    .section1a .p1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 40.2px;
+        text-align: center;
+        color: white;
+    
+    
+    }
+    
+    
+    .section1a .p2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        margin-top: 35px;
+    
+    
+    
+    }
+    
+    
+    
+    .qlearn{
+        position: relative;
+        margin-top: 35px;
+        margin-left: 33%;
+        margin-bottom: 20px;
+    }
+
+
+
+
+}
+
+
+
 
 
 
