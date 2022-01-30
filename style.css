@@ -17,15 +17,16 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/cover.png") ;   
     background-size: cover;
     background-repeat: no-repeat;
-    
-
-    
+        
 
 }
 .header{
-    width: 95%;
+    width: 100%;
     box-sizing: border-box;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
      
 }
@@ -35,19 +36,38 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    padding-left: 20px;
     padding-top: 20px;
 }
+.navb1{
+    width: 30%;
+}
 
+
+
+.slogo{
+    width: 20%;
+}
 
 .logo{
-    width: 10%;
     display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
-.logo img{
-    width: 50%;
-    margin-left: 20px;
+
+.logo h3{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 30px;
+
 }
+.logo span:hover{
+    color: #23A6F0;
+}
+
+
 
 /****Hidden images***/
 .hlogo{
@@ -70,24 +90,10 @@ body{
 
 
 
-
-.logo-name h3{
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 13px;
-    color: white;
-
-}
-.logo-name span:hover{
-    color: #23A6F0;
-}
-
-
 .menu{
-    margin-left: 5%;
-
-    
+    padding-top: 20px;
+    padding-right: 20px;
 }
-
 .menu li{
     display: inline-block;
     padding: 15px ;
@@ -107,10 +113,13 @@ body{
 
 
 .login{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+
 
 }
 .login a{
@@ -127,9 +136,10 @@ body{
     background-color: #23A6F0;
     border-radius: 3px;
     color: white;
-    margin-top: 4px;
+    margin-top: 20px;
     margin-left: 20px;
     font-weight: bold;
+    
     
 
 }
@@ -329,12 +339,20 @@ body{
 }
 
 @media only screen and (min-width: 350px) and (max-width: 768px){
+   
+.section1a{
+    margin-top: 5%;
+}
+    
+    
+    
     .section1a .p1{
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        font-size: 40.2px;
+        font-size: 40px;
         text-align: center;
         color: white;
+        padding-top: 80px;
     
     
     }
@@ -342,10 +360,9 @@ body{
     
     .section1a .p2{
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
         color: white;
-        margin-top: 35px;
     
     
     
@@ -354,10 +371,34 @@ body{
     
     
     .qlearn{
-        position: relative;
-        margin-top: 35px;
-        margin-left: 33%;
+        display: block;
+        block-size: 2%;
+        margin-top: 30px;
         margin-bottom: 20px;
+        justify-content: center;
+
+    }
+    .quote-bt{
+        border: 10px solid  #23A6F0;
+        background-color: #23A6F0;
+        border-radius: 60px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    
+    }
+
+    .quote-bt2{
+        border: 1px solid  white;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    
     }
 
 
@@ -465,8 +506,16 @@ body{
 @media only screen and (min-width: 350px) and (max-width: 768px){
     .banner-cards{
         display: block;
+        margin-left: 0;
         margin-right: 10px;
         justify-content: center;
+        padding-bottom: 30%;
+        padding-top: 15%;
+    
+    }
+    .cards{
+        margin-top: 5px;
+    
     
     }
 
@@ -480,22 +529,22 @@ body{
 
     .card1{
         border: 2px solid white;
-        width: 80%;
+        width: 70%;
         background-color: white;
         box-shadow: 0px 1px 1px 1px #eeeeee;
         position: relative;
-        top: 80px;
+        top: 30px;
         margin-bottom: 20px;
         
     }
 
     .card12{
         border: 2px solid #23A6F0;
-        width: 80%;
+        width: 70%;
         background-color: #23A6F0;
         box-shadow: 0px 1px 1px 1px #23A6F0;
         position: relative;
-        top: 80px;
+        top: 40px;
     
         
     }
@@ -548,6 +597,55 @@ body{
     font-size: 13px;
 
 }
+
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    #part2{
+        margin-top: 0;
+
+        background-color: white;
+        width: 100%;
+    }
+    
+    
+    .part2a{
+        display: block;
+        flex-direction: column;
+        padding-bottom: 20px;
+
+
+    
+    } 
+
+    .part2ab{
+        margin-top: 0;
+        margin-left: 5px;
+        width: 100%;
+        margin-bottom: 5%;
+        padding-top: 50px;
+    
+    }
+
+    .part2ab img{
+        width: 100%;
+    }
+
+    .part2ab h4{
+        font-family: 'Montserrat';
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .part2ab p{
+        font-family: 'Montserrat';
+        text-align: center;
+        font-size: 10px;
+    
+    }
+
+}
+
+
+
 
 
 
