@@ -3,6 +3,17 @@
 This is a basic html/css website for a n Insurance Company by the name Triple G
 #### By 
 Geoffrey Gichaga .G
+
+## Table of Content
+
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Known Bugs](#Known-Bugs)
++ [Technology Used](#technology-used)
++ [Support and Contact Details](#Support-and-contact-details)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
 ## Description
 The site provides users with information about our company ,various insurance packages ,reviews from our clients and An appointment booking form 
 It has 7 sections on the landing page each with different information.
@@ -73,4 +84,8 @@ SOFTWARE.
 
 ### Copyright (c) {year}
 copyright (c) 2022.All rights reserved.
-  
+
+
+## Authors Info
+LinkedIn - [Geoffrey Gichaga .G](https://www.linkedin.com/in/geoffrey-gichaga-234318ba/)
+
